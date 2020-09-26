@@ -1,0 +1,82 @@
+body {
+  background-color: #FCFCFC;
+  margin: 1rem;
+}
+
+.labelrow {
+  position: absolute;
+  bottom: 5%;
+  left: 5%;
+}
+
+.hero-section-text {
+  color: #f2f2f2;
+  text-shadow: 1px 1px 2px #00ffff;
+  text-align: left;
+}
+
+.columns {
+  position: relative;
+}
+
+.main-section {
+  /**/
+}
+
+.main-section h1 {
+  font-size: 2rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.card-divider {
+  text-transform: uppercase;
+  background-color: #E6E6E6;
+}
+
+.card-section {
+  font-size: .9rem;
+}
+
+.card-section img {
+  margin-bottom: 1rem;
+}
+
+.about-us {
+  line-height: 150%;
+}
+
+.welcome-text {
+  line-height: 125%;
+}
+
+.header-nav-link {
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #000;
+  padding: 0px;
+  letter-spacing: .05rem;
+}
+
+.header-nav-link:hover {
+  color: #BB7676;
+}
+
+.is-active {
+  color: #7b183e;
+}
+
+.no-js .top-bar {
+  display: none;
+}
+
+@media screen and (min-width: 40em) {
+  .no-js .top-bar {
+    display: block;
+  }
+
+  .no-js .title-bar {
+    display: none;
+  }
+}
