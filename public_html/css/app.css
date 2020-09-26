@@ -80,3 +80,35 @@ body {
     display: none;
   }
 }
+
+/* Embed Page CSS */
+.container {
+  width: 282px;
+  position: relative;
+  margin: 0 auto;
+  border: solid 1px #ddd;
+  height: 235px;
+  background-size: 100%;
+}
+
+.embed-widget {
+  width: 282px;
+  height: 235px;
+  top: 273px;
+  border: solid 5px #555;
+  text-align: center;
+  background-color: white;
+}
+
+.embed-widget p {
+  background-color: #555;
+  color: #fff;
+  float: left;
+  text-align: center;
+  width: 100%;
+  margin: 0 0 20px;
+  line-height: 40px;
+  font-size: 16px;
+
+}
+
